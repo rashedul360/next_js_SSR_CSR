@@ -13,7 +13,6 @@ export const revalidate = 5;
 
 export default async function Page({ params }) {
   const { id } = await params;
-
   return (
     <div>
       <h1>Product {id}</h1>
