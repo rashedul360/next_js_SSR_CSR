@@ -84,3 +84,10 @@
     server side
 
     fetch data in server component: go -> /users for example
+
+    #### now: handle error and loading state in SSC
+
+    For Loading: create a loading.tsx for each route. and design it
+    For Error : create a error.tsx for each route. and design it,
+
+    ###### note: error.tsx is s client side component
