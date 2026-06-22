@@ -3,7 +3,7 @@ const page = () => {
   return (
     <>
       <h1>interleaving client</h1>
-      <ServerComponentOne />
+      {/* <ServerComponentOne /> */}
     </>
   );
 };

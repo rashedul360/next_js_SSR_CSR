@@ -91,3 +91,8 @@
     For Error : create a error.tsx for each route. and design it,
 
     ###### note: error.tsx is s client side component
+
+    #### data fetching can be in two types
+
+          1. Sequential Data Fetching (slow) [ go: http://localhost:3000/sequential-data-fetch ]
+          2. Parallel Data Fetching

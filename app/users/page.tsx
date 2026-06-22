@@ -15,8 +15,10 @@ export const getUsers = async () => {
   const users = await res.json();
   return users;
 };
+
 const page = async () => {
   const users = await getUsers();
+
   return (
     <>
       <h1>users</h1>
