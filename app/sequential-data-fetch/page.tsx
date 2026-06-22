@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Author from "./Author";
 
 export type Post = {
@@ -42,7 +43,11 @@ export default async function Page() {
               {post.title}
             </h2>
             <p className="text-gray-600 text-sm line-clamp-4">{post.body}</p>
-            Author : <Author userId={post.userId} />
+            Improved Author:{" "}
+            <Suspense fallback="author loading">
+              <Author userId={post.userId} />
+            </Suspense>
+            {/* Author : <Author userId={post.userId} /> */}
             <button className="mt-4 text-sm text-blue-500 hover:underline">
               Read more →
             </button>
