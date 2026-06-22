@@ -73,6 +73,14 @@
 10. Interleaving Server and Client Components
     example -> @app/interleaving-server/page.tsx
     example -> @app/interleaving-client/page.tsx
+
     #### Note:
+
               client component inside server : works perfectly
               server component inside client : doesn't work (because Client creates a browser boundary), but works where doesn't create any server action.
+
+11. Data Fetching
+    client side.
+    server side
+
+    fetch data in server component: go -> /users for example
